@@ -143,4 +143,40 @@ footer {
 footer p {
     font-size: 1em;
 }
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-img {
+    margin: 0 auto 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    float: none;
+    margin-top: 15px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}
+
 
